@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$blue: #212331;
+$grey: #8d99ae;
+$white: #edf2f4;
+$red: #eb043c;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $white;
+  background-color: #141414;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+
+}
+
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+
+
+
+
+

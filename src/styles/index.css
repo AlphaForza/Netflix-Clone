@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #edf2f4;
+  background-color: #141414;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #edf2f4;
+}
+
+.navbar {
+  height: 100px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: black;
+}
+.navbar .navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.navbar .navbar-list a {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.navbar .navbar-list img {
+  width: 150px;
+}
+.navbar .navbar-icons {
+  text-align: end;
+}
+
+.movie-row-container {
+  padding: 50px 20px;
+}
+.movie-row-container h2 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+.movie-row-container .movie_container {
+  display: flex;
+  position: relative;
+}
+.movie-row-container .movie_container .movie_cart {
+  margin-right: 5px;
+}
+.movie-row-container .movie_container .movie_cart .title {
+  font-size: 2rem;
+  padding: 0 10px;
+}
+.movie-row-container .movie_container .movie_cart .text {
+  font-size: 1.6rem;
+  font-weight: normal;
+  padding: 0 10px;
+}
+.movie-row-container .movie_container .movie_cart img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  height: auto;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: rgb(245, 76, 76);
+  border-radius: 10px;
+}
+.modal .modal-image {
+  width: 100%;
+  height: 100%;
+}
+.modal .modal-image img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content p {
+  font-size: 1.6rem;
+}
+
+.home-page-landingImage {
+  width: 100vw;
+  height: 90vh;
+  background: url(../assets/black-adam-trailer.jpg);
+  background-position: 50% 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=index.css.map */
